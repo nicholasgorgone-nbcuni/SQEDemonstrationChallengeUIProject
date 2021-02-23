@@ -5,6 +5,17 @@
 2. Complete the Excerise
 3. Email a synopsis of your work and the link to your git repo containing the completed exercise to: sqedemonstrationchallenge@nbcuni.com
 
+
+#### Expectations
+We will be evaluating
+1. Naming conventions
+2. Code readability
+3. Code encapsulation
+4. Code structure and organization
+5. Quality of test cases
+6. Variety  of testing types (examples: boundary, happy path, negative, etc) 
+
+
 #### Technologies
 1. Java
 2. Selenium
@@ -22,14 +33,6 @@
 7. Make sure you can run the DemoTest and chrome launches.  You may need to update the chromedriver in /src/test/resources/chromedriver/ to the version that works with your browser
    https://chromedriver.chromium.org/
 
-#### Expectations
-We will be evaluating
-1. Quality of test cases
-2. Variety  of testing types (examples: boundary, happy path, negative, etc)
-3. Code structure and organization
-4. Naming conventions
-5. Code readability
-6. Code modularity
 
 #### Exercise
 1. Use the site at the index.html

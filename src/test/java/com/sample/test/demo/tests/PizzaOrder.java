@@ -14,7 +14,7 @@ import static com.sample.test.demo.Configuration.readDataFile;
 
 public class PizzaOrder extends TestBase {
     @Test
-    public void demoTest() throws IOException {
+    public void PizzaOrderTest() throws IOException {
         Properties propData = readDataFile("src/test/resources/files/data.txt");
 
         //select pizza type

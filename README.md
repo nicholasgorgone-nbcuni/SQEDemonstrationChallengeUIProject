@@ -47,5 +47,32 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
+ 1. Validate Pizza type options shown on the form.
+ 2. Validate topping  options shown on the form.
+ 3. Ensure order is placed successfully when all the inputs are specified and a payment instrument is provided. Try both Credit Card and Cash Payment options. Ensure cost is computed correctly to 2 decimal place.
+ 4. Ensure an order cannot be placed when 
+      a. No pizza type is selected.
+      b. Topping options do not match the pizza type selection.
+      c. Quantity is not specified.
+      d. Payment instrument is not chosen.
+      e. Name and Phone fields are not provided.
+ 5. Ensure user can enter a quantity that ranges between 1 and 99999 (in the absence of requirements, i am taking this from the definition of quantity text boxes maxlength). Any thing else should result in a failure.
+ 6. Ensure users can only order whole pizzas.
+ 7. Ensure users can select only one payment instrument.
+ 8. Ensure cost is computed accurately. Check for rounding errors.
+ 
+
+
+ #### Defects
+
+ 1. Reset does not reset toppings.
+ 2. Pizza Type selection, does not reflect options made available for toppings. For instance, toppings can be selected, even for a Pizza which does not come with toppings. And in cases where pizza type allows for topings, user is allowed to place an order even with specifying the topics. No errors or warnings.
+ 3. No error when placing an order, with both payment options selected. This ihould not be allowed in the first place.
+ 4. No error thrown when Pizza Type is not selected.
+ 5. No format errors for email and phone text fields.
+ 6. No errors when quantity is not specified.
+ 7. No errors when fractional quantity is specified.
+ 8. No errors when negative quantity is specified.
+ 9. No errors when placing an order with out selecting a payment instrument.
+ 10 The dialog box does not have a visual que of whether it is informational / Error or Warning.
 
